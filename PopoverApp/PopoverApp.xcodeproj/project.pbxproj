@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EBA15B827DA44290016ADC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA15B727DA44290016ADC3 /* AppDelegate.swift */; };
-		4EBA15BA27DA44290016ADC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA15B927DA44290016ADC3 /* ViewController.swift */; };
-		4EBA15BC27DA442A0016ADC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA15BB27DA442A0016ADC3 /* Assets.xcassets */; };
-		4EBA15BF27DA442A0016ADC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA15BD27DA442A0016ADC3 /* Main.storyboard */; };
+		4EA4803327DDF73600E8ABF8 /* PopoverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4803227DDF73600E8ABF8 /* PopoverAppApp.swift */; };
+		4EA4803527DDF73600E8ABF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4803427DDF73600E8ABF8 /* ContentView.swift */; };
+		4EA4803727DDF73700E8ABF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA4803627DDF73700E8ABF8 /* Assets.xcassets */; };
+		4EA4803A27DDF73700E8ABF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA4803927DDF73700E8ABF8 /* Preview Assets.xcassets */; };
+		4EA4804527DE024900E8ABF8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4804427DE024900E8ABF8 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4EBA15B427DA44290016ADC3 /* MacAppTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAppTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EBA15B727DA44290016ADC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EBA15B927DA44290016ADC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4EBA15BB27DA442A0016ADC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EBA15BE27DA442A0016ADC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EBA15C027DA442A0016ADC3 /* MacAppTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacAppTutorial.entitlements; sourceTree = "<group>"; };
+		4EA4802F27DDF73600E8ABF8 /* PopoverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA4803227DDF73600E8ABF8 /* PopoverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverAppApp.swift; sourceTree = "<group>"; };
+		4EA4803427DDF73600E8ABF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EA4803627DDF73700E8ABF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EA4803927DDF73700E8ABF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EA4803B27DDF73700E8ABF8 /* PopoverApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopoverApp.entitlements; sourceTree = "<group>"; };
+		4EA4804427DE024900E8ABF8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EBA15B127DA44290016ADC3 /* Frameworks */ = {
+		4EA4802C27DDF73600E8ABF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,70 +35,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4EBA15AB27DA44290016ADC3 = {
+		4EA4802627DDF73600E8ABF8 = {
 			isa = PBXGroup;
 			children = (
-				4EBA15B627DA44290016ADC3 /* MacAppTutorial */,
-				4EBA15B527DA44290016ADC3 /* Products */,
+				4EA4803127DDF73600E8ABF8 /* PopoverApp */,
+				4EA4803027DDF73600E8ABF8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4EBA15B527DA44290016ADC3 /* Products */ = {
+		4EA4803027DDF73600E8ABF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EBA15B427DA44290016ADC3 /* MacAppTutorial.app */,
+				4EA4802F27DDF73600E8ABF8 /* PopoverApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EBA15B627DA44290016ADC3 /* MacAppTutorial */ = {
+		4EA4803127DDF73600E8ABF8 /* PopoverApp */ = {
 			isa = PBXGroup;
 			children = (
-				4EBA15B727DA44290016ADC3 /* AppDelegate.swift */,
-				4EBA15B927DA44290016ADC3 /* ViewController.swift */,
-				4EBA15BB27DA442A0016ADC3 /* Assets.xcassets */,
-				4EBA15BD27DA442A0016ADC3 /* Main.storyboard */,
-				4EBA15C027DA442A0016ADC3 /* MacAppTutorial.entitlements */,
+				4EA4804127DE021800E8ABF8 /* Menu */,
+				4EA4803227DDF73600E8ABF8 /* PopoverAppApp.swift */,
+				4EA4803427DDF73600E8ABF8 /* ContentView.swift */,
+				4EA4803627DDF73700E8ABF8 /* Assets.xcassets */,
+				4EA4803B27DDF73700E8ABF8 /* PopoverApp.entitlements */,
+				4EA4803827DDF73700E8ABF8 /* Preview Content */,
 			);
-			path = MacAppTutorial;
+			path = PopoverApp;
+			sourceTree = "<group>";
+		};
+		4EA4803827DDF73700E8ABF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4EA4803927DDF73700E8ABF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4EA4804127DE021800E8ABF8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4EA4804427DE024900E8ABF8 /* MenuView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EBA15B327DA44290016ADC3 /* MacAppTutorial */ = {
+		4EA4802E27DDF73600E8ABF8 /* PopoverApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EBA15C327DA442A0016ADC3 /* Build configuration list for PBXNativeTarget "MacAppTutorial" */;
+			buildConfigurationList = 4EA4803E27DDF73700E8ABF8 /* Build configuration list for PBXNativeTarget "PopoverApp" */;
 			buildPhases = (
-				4EBA15B027DA44290016ADC3 /* Sources */,
-				4EBA15B127DA44290016ADC3 /* Frameworks */,
-				4EBA15B227DA44290016ADC3 /* Resources */,
+				4EA4802B27DDF73600E8ABF8 /* Sources */,
+				4EA4802C27DDF73600E8ABF8 /* Frameworks */,
+				4EA4802D27DDF73600E8ABF8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MacAppTutorial;
-			productName = MacAppTutorial;
-			productReference = 4EBA15B427DA44290016ADC3 /* MacAppTutorial.app */;
+			name = PopoverApp;
+			productName = PopoverApp;
+			productReference = 4EA4802F27DDF73600E8ABF8 /* PopoverApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4EBA15AC27DA44290016ADC3 /* Project object */ = {
+		4EA4802727DDF73600E8ABF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4EBA15B327DA44290016ADC3 = {
+					4EA4802E27DDF73600E8ABF8 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 4EBA15AF27DA44290016ADC3 /* Build configuration list for PBXProject "MacAppTutorial" */;
+			buildConfigurationList = 4EA4802A27DDF73600E8ABF8 /* Build configuration list for PBXProject "PopoverApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,53 +123,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 4EBA15AB27DA44290016ADC3;
-			productRefGroup = 4EBA15B527DA44290016ADC3 /* Products */;
+			mainGroup = 4EA4802627DDF73600E8ABF8;
+			productRefGroup = 4EA4803027DDF73600E8ABF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EBA15B327DA44290016ADC3 /* MacAppTutorial */,
+				4EA4802E27DDF73600E8ABF8 /* PopoverApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EBA15B227DA44290016ADC3 /* Resources */ = {
+		4EA4802D27DDF73600E8ABF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EBA15BC27DA442A0016ADC3 /* Assets.xcassets in Resources */,
-				4EBA15BF27DA442A0016ADC3 /* Main.storyboard in Resources */,
+				4EA4803A27DDF73700E8ABF8 /* Preview Assets.xcassets in Resources */,
+				4EA4803727DDF73700E8ABF8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4EBA15B027DA44290016ADC3 /* Sources */ = {
+		4EA4802B27DDF73600E8ABF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EBA15BA27DA44290016ADC3 /* ViewController.swift in Sources */,
-				4EBA15B827DA44290016ADC3 /* AppDelegate.swift in Sources */,
+				4EA4803527DDF73600E8ABF8 /* ContentView.swift in Sources */,
+				4EA4804527DE024900E8ABF8 /* MenuView.swift in Sources */,
+				4EA4803327DDF73600E8ABF8 /* PopoverAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		4EBA15BD27DA442A0016ADC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EBA15BE27DA442A0016ADC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		4EBA15C127DA442A0016ADC3 /* Debug */ = {
+		4EA4803C27DDF73700E8ABF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		4EBA15C227DA442A0016ADC3 /* Release */ = {
+		4EA4803D27DDF73700E8ABF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,56 +274,56 @@
 			};
 			name = Release;
 		};
-		4EBA15C427DA442A0016ADC3 /* Debug */ = {
+		4EA4803F27DDF73700E8ABF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacAppTutorial/MacAppTutorial.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PopoverApp/PopoverApp.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PopoverApp/Preview Content\"";
 				DEVELOPMENT_TEAM = B44YL23J9X;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seosieve.MacAppTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seosieve.PopoverApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4EBA15C527DA442A0016ADC3 /* Release */ = {
+		4EA4804027DDF73700E8ABF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacAppTutorial/MacAppTutorial.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PopoverApp/PopoverApp.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PopoverApp/Preview Content\"";
 				DEVELOPMENT_TEAM = B44YL23J9X;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seosieve.MacAppTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seosieve.PopoverApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EBA15AF27DA44290016ADC3 /* Build configuration list for PBXProject "MacAppTutorial" */ = {
+		4EA4802A27DDF73600E8ABF8 /* Build configuration list for PBXProject "PopoverApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EBA15C127DA442A0016ADC3 /* Debug */,
-				4EBA15C227DA442A0016ADC3 /* Release */,
+				4EA4803C27DDF73700E8ABF8 /* Debug */,
+				4EA4803D27DDF73700E8ABF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EBA15C327DA442A0016ADC3 /* Build configuration list for PBXNativeTarget "MacAppTutorial" */ = {
+		4EA4803E27DDF73700E8ABF8 /* Build configuration list for PBXNativeTarget "PopoverApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EBA15C427DA442A0016ADC3 /* Debug */,
-				4EBA15C527DA442A0016ADC3 /* Release */,
+				4EA4803F27DDF73700E8ABF8 /* Debug */,
+				4EA4804027DDF73700E8ABF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4EBA15AC27DA44290016ADC3 /* Project object */;
+	rootObject = 4EA4802727DDF73600E8ABF8 /* Project object */;
 }
